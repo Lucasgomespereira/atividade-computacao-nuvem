@@ -1,24 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Atividade Git</title>
+    <style>
+        #corpo {
+            width: 40%;
+            margin: auto;
+        }
+
+        h3 {
+            color: white;
+        }
+        p{
+            text-align: justify;
+        }
+        #divMut{
+            width: 50%;
+        }
+        a{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Atividade com Git</h1>
-    <p>Git é um sistema de controle de versão, 
-        desenvolvido por Linus Torvalds,
-        onde é muito usado no desenvolvimento de Software,
-        porém podendo ser aplicado à atividades diversas, como TCC's e Monografias. 
-        Este, na atualidade se tornou vital para trabalhar
-        , seja em equipes ou individualmente, 
-        pois se tem um maior controle 
-        do que está sendo feito e principalmente em caso de erros
-        é muito simples para voltar ao commit anterior, 
-        tirando a necessidade de alterar todo o arquivo, 
-        trazendo uma maior segurança no desenvolvimento do projeto.    
-    </p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/img_branch.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Trabalho - Git
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dupla.html">Dupla</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="card" id="corpo">
+            <div class="card-body">
+                <h3 class="card-header bg-dark">Atividade com Git</h1>
+                    <p>Git é um sistema de controle de versão,
+                        desenvolvido por Linus Torvalds,
+                        onde é muito usado no desenvolvimento de Software,
+                        porém podendo ser aplicado à atividades diversas, como TCC's e Monografias.
+                        Este, na atualidade se tornou vital para trabalhar
+                        , seja em equipes ou individualmente,
+                        pois se tem um maior controle
+                        do que está sendo feito e principalmente em caso de erros
+                        é muito simples para voltar ao commit anterior,
+                        tirando a necessidade de alterar todo o arquivo,
+                        trazendo uma maior segurança no desenvolvimento do projeto.</p>
+                        <cite><p>Dupla: Lucas Gomes & Samuel Raimundo</p></cite>
+                    <a href="dupla.html" class="btn btn-primary">Conhecer a dupla</a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
