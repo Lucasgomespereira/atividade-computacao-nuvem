@@ -1,8 +1,11 @@
 <html lang="pt-BR">
 
 <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,10 +14,17 @@
         a {
             font-family: 'Times New Roman', Times, serif;
         }
-        .container{
+
+        .container {
             margin: auto;
         }
-
+        #btnVoltar{
+            width: 80%;
+            margin: auto;
+        }
+        .card-body{
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -40,7 +50,6 @@
         <div class="col-sm-6">
             <div class="card">
                 <img src="img/pgmr2.png" alt="" class="card-img-top">
-                <hr>
                 <div class="card-body">
                     <h5 class="card-title"><strong>Lucas Gomes Pereira</strong></h5>
                     <p class="card-text"><strong>Matrícula:</strong> 201810451.</p>
@@ -50,7 +59,6 @@
         <div class="col-sm-6">
             <div class="card">
                 <img src="img/pgmr2.png" alt="" class="card-img-top">
-                <hr>
                 <div class="card-body">
                     <h5 class="card-title"><strong>Nome</strong></h5>
                     <p class="card-text"><strong>Matrícula:</strong> ____________________.</p>
@@ -58,6 +66,7 @@
             </div>
         </div>
     </div>
+    <a href="index.html" class="btn btn-primary btn-lg btn-block mt-4" id="btnVoltar">Voltar</a>
 </body>
 
 </html>
